@@ -9,8 +9,7 @@ The benchmark evaluates:
 - Abort rates due to conflicts  
 - Average commit delay  
 - Performance under different workload configurations  
-
-=== SSI Benchmark Results(example) ===
+## 📊 SSI Benchmark Results (Example)
 Total transactions:       1000
 Read-only %:             80%
 Average commit delay:    2.00902 ms
