@@ -10,11 +10,11 @@ The benchmark evaluates:
 - Average commit delay  
 - Performance under different workload configurations  
 ## 📊 SSI Benchmark Results (Example)
-Total transactions:       1000
-Read-only %:             80%
-Average commit delay:    2.00902 ms
-Abort rate:              24.1641%
-Throughput:              497.756 txns/sec
+Total transactions:       1000, 
+Read-only %:             80%, 
+Average commit delay:    2.00902 ms, 
+Abort rate:              24.1641%, 
+Throughput:              497.756 txns/sec.
 
 ---
 ## ⚙️ Configurable Parameters
