@@ -10,7 +10,16 @@ The benchmark evaluates:
 - Average commit delay  
 - Performance under different workload configurations  
 
+=== SSI Benchmark Results(example) ===
+Total transactions:       1000
+Read-only %:             80%
+Average commit delay:    2.00902 ms
+Abort rate:              24.1641%
+Throughput:              497.756 txns/sec
+
 ---
+## ⚙️ Configurable Parameters
+```cpp
 // Configurable parameters
 int M               = 1000;  // Number of shared variables
 int totTrans        = 1000;  // Total number of transactions
@@ -19,12 +28,6 @@ int lambdaVal       = 20;    // For exponential sleep (inter-arrival delay)
 int numIters        = 20;    // Fixed operations per transaction
 int numThreads      = 16;    // Number of worker threads (N)
 int readOnlyPercent = 80;    // Percentage of read-only transactions
-=== SSI Benchmark Results(example) ===
-Total transactions:       1000
-Read-only %:             80%
-Average commit delay:    2.00902 ms
-Abort rate:              24.1641%
-Throughput:              497.756 txns/sec
 
 ## 🖥️ Running the Program
 
