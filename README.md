@@ -11,12 +11,6 @@ The benchmark evaluates:
 - Performance under different workload configurations  
 
 ---
-
-## 🖥️ Running the Program
-
-### 1. Compile
-```bash
-g++ Source-CS22BTECH11046_CS22BTECH11035.cpp
 // Configurable parameters
 int M               = 1000;  // Number of shared variables
 int totTrans        = 1000;  // Total number of transactions
@@ -31,4 +25,11 @@ Read-only %:             80%
 Average commit delay:    2.00902 ms
 Abort rate:              24.1641%
 Throughput:              497.756 txns/sec
+
+## 🖥️ Running the Program
+
+### 1. Compile
+```bash
+g++ Source-CS22BTECH11046_CS22BTECH11035.cpp
+
 
